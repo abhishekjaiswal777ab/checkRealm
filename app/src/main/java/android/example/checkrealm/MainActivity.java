@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 if(result.isSuccess()) {
                     Log.v("User", "Login Successgull");
                     Log.v("Use", "Its my first push");
+                    Log.v("Us","Its my second commit");
                 }
                 else
                     Log.v("User","Login Unsuccessfull");
