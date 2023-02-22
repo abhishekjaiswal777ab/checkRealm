@@ -41,8 +41,11 @@ public class MainActivity extends AppCompatActivity {
         app.loginAsync(Credentials.anonymous(), new App.Callback<User>() {
             @Override
             public void onResult(App.Result<User> result) {
-                if(result.isSuccess())
-                    Log.v("User","Login Successgull");
+                if(result.isSuccess()) {
+                    Log.v("User", "Login Successgull");
+                    Log.v("Use", "Its my first push");
+                    Log.v("Us","Its my second commit");
+                }
                 else
                     Log.v("User","Login Unsuccessfull");
             }
